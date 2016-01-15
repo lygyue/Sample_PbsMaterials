@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4A1DFCEB-84A9-4134-B058-3CE949C57A18}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Sample_PbsMaterials</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Work\Ogre2.1\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Sample_PbsMaterials.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Sample_PbsMaterials</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Work\Ogre2.1\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Sample_PbsMaterials.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Sample_PbsMaterials</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Work\Ogre2.1\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Sample_PbsMaterials.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Sample_PbsMaterials</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Work\Ogre2.1\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Sample_PbsMaterials.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Sample_PbsMaterials</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;E:\Work\Ogre2.1\Components\Hlms\Unlit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\lib\Debug\OgreMain_d.lib;..\..\..\..\lib\Debug\OgreSamplesCommon_d.lib;..\..\..\..\lib\Debug\OgreOverlay_d.lib;..\..\..\..\lib\Debug\OgreHlmsPbs_d.lib;..\..\..\..\lib\Debug\OgreHlmsUnlit_d.lib;..\..\..\..\Dependencies\lib\Debug\FreeImaged.lib;..\..\..\..\Dependencies\lib\Debug\zziplibd.lib;..\..\..\..\Dependencies\lib\Debug\zlibd.lib;..\..\..\..\Dependencies\lib\Debug\freetyped.lib;..\..\..\..\Dependencies\lib\Debug\sdl2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/Work/Ogre2.1/lib/Debug/Sample_PbsMaterials.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Work/Ogre2.1/bin/Debug/Sample_PbsMaterials.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\lib\Release\OgreMain.lib;..\..\..\..\lib\Release\OgreSamplesCommon.lib;..\..\..\..\lib\Release\OgreOverlay.lib;..\..\..\..\lib\Release\OgreHlmsPbs.lib;..\..\..\..\lib\Release\OgreHlmsUnlit.lib;..\..\..\..\lib\Release\OgreMain.lib;..\..\..\..\Dependencies\lib\Release\FreeImageLib.lib;..\..\..\..\Dependencies\lib\Release\zziplib.lib;..\..\..\..\Dependencies\lib\Release\zlib.lib;..\..\..\..\Dependencies\lib\Release\freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/Work/Ogre2.1/lib/Release/Sample_PbsMaterials.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Work/Ogre2.1/bin/Release/Sample_PbsMaterials.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\lib\MinSizeRel\OgreMain.lib;..\..\..\..\lib\MinSizeRel\OgreSamplesCommon.lib;..\..\..\..\lib\MinSizeRel\OgreOverlay.lib;..\..\..\..\lib\MinSizeRel\OgreHlmsPbs.lib;..\..\..\..\lib\MinSizeRel\OgreHlmsUnlit.lib;..\..\..\..\lib\MinSizeRel\OgreMain.lib;..\..\..\..\Dependencies\lib\Release\FreeImageLib.lib;..\..\..\..\Dependencies\lib\Release\zziplib.lib;..\..\..\..\Dependencies\lib\Release\zlib.lib;..\..\..\..\Dependencies\lib\Release\freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/Work/Ogre2.1/lib/MinSizeRel/Sample_PbsMaterials.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Work/Ogre2.1/bin/MinSizeRel/Sample_PbsMaterials.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Work\Ogre2.1\OgreMain\include;E:\Work\Ogre2.1\include;E:\Work\Ogre2.1\Dependencies\include;E:\Work\Ogre2.1\Dependencies\include\freetype2;E:\Work\Ogre2.1\Dependencies\include\OIS;E:\Work\Ogre2.1\Dependencies\include\Cg;E:\Work\Ogre2.1\Dependencies;E:\Work\Ogre2.1\OgreMain\include\Threading;E:\Work\Ogre2.1\Samples\2.0\Common\include;E:\Work\Ogre2.1\Components\Overlay\include;E:\Work\Ogre2.1\Dependencies\include\SDL2;E:\Work\Ogre2.1\Samples\2.0\Showcase\PbsMaterials\include;E:\Work\Ogre2.1\Components\Hlms\Common\include;E:\Work\Ogre2.1\Components\Hlms\Pbs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\lib\RelWithDebInfo\OgreMain.lib;..\..\..\..\lib\RelWithDebInfo\OgreSamplesCommon.lib;..\..\..\..\lib\RelWithDebInfo\OgreOverlay.lib;..\..\..\..\lib\RelWithDebInfo\OgreHlmsPbs.lib;..\..\..\..\lib\RelWithDebInfo\OgreHlmsUnlit.lib;..\..\..\..\lib\RelWithDebInfo\OgreMain.lib;..\..\..\..\Dependencies\lib\Release\FreeImageLib.lib;..\..\..\..\Dependencies\lib\Release\zziplib.lib;..\..\..\..\Dependencies\lib\Release\zlib.lib;..\..\..\..\Dependencies\lib\Release\freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/Work/Ogre2.1/lib/RelWithDebInfo/Sample_PbsMaterials.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Work/Ogre2.1/bin/RelWithDebInfo/Sample_PbsMaterials.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="PbsMaterials.h" />
+    <ClInclude Include="PbsMaterialsGameState.h" />
+    <ClCompile Include="PbsMaterials.cpp" />
+    <ClCompile Include="PbsMaterialsGameState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Work/Ogre2.1/Components/Hlms/Pbs/OgreHlmsPbs.vcxproj">
+      <Project>54F1E7BB-501D-465A-ADC1-915A60F0BDF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Work/Ogre2.1/Components/Hlms/Unlit/OgreHlmsUnlit.vcxproj">
+      <Project>0E1D1271-822B-4C1C-B0F9-E282ABAD5E09</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Work/Ogre2.1/OgreMain/OgreMain.vcxproj">
+      <Project>2443244B-3257-453B-A5C5-ECC70856441E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Work/Ogre2.1/Components/Overlay/OgreOverlay.vcxproj">
+      <Project>1045ED9B-BF8A-4680-831F-A1B2F074F78E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/Work/Ogre2.1/Samples/2.0/Common/OgreSamplesCommon.vcxproj">
+      <Project>14C8236C-AF01-41BE-8E20-079757A49ED8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
