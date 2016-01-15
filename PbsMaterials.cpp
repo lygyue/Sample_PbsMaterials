@@ -116,7 +116,7 @@ namespace Demo
 			Ogre::HlmsUnlitDatablock *unlitDb = static_cast<Ogre::HlmsUnlitDatablock*>( datablock );
 			unlitDb->setTexture( 0, 0, m_CustomRenderTexture );
 			
-#if 0
+#if 1
 			Ogre::ManualObject* CustomManualObject = mSceneManager->createManualObject();
 			CustomManualObject->begin(CustomMaterialName);
 			CustomManualObject->position(-100, -100, -100);
